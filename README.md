@@ -24,15 +24,16 @@ javac ImageDisplay.java
 
 ### Execution Instructions:
 To run the program, use:
-java ImageDisplay <image.rgb> <scale> <Q> [<mode>]
+java ImageDisplay `<image.rgb>` `<scale>` `<Q>` `[<mode>]`(optional)
 
-<image.rgb>: Path to the raw image file (e.g., Lenna_512_512.rgb).  
-<scale>: Scaling factor (e.g., 1.0 for original size, 0.5 for half size, etc.).  
-<Q>: Bit depth for quantization (e.g., 8, 4, 2, etc.).  
-[<mode>] (Optional):  
-- -1 for uniform quantization.  
-- 0 for logarithmic quantization with automatic pivot (extra credit).  
-- Any value between 1 and 255 for piecewise quantization using the given pivot.
+- `<image.rgb>`: Path to the raw image file (e.g., `Lenna_512_512.rgb`).
+- `<scale>`: Scaling factor (e.g., `1.0` for original size, `0.5` for half size, etc.).
+- `<Q>`: Bit depth for quantization (e.g., `8`, `4`, `2`, etc.).
+- `[<mode>]` (Optional):  
+  - `-1` for uniform quantization.  
+  - `0` for logarithmic quantization with automatic pivot (extra credit).  
+  - Any value between `1` and `255` for piecewise quantization using the given pivot.
+
 
 ---
 
